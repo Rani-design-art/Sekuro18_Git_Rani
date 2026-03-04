@@ -1,0 +1,7 @@
+*   16a3134 merge: resolve conflict by keeping comments from v1 and v2
+|\  
+| * 02cd533 / ini versi 1
+* | 60dc800 / ini versi 2
+* | bfa0b2f / ini versi 2
+|/  
+* f50d88e inisiasi github
