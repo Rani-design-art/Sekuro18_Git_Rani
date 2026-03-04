@@ -1,0 +1,30 @@
+   50  cd recovery_ops
+   51  code .
+   52  ls
+   53  cd recovery_ops
+   54  ls
+   55  head -n 1260 system_raw.txt | tail -n 11 > recovered_sector.txt
+   56  ls
+   57  cat recovered_sector.txt
+   58  find _ name "recovered_sector.txt"
+   59  find ~ name "recovered_sector.txt"
+   60  find ~ -name "recovered_sector.txt"
+   61  rm recovered_sector
+   62  rm recovered_sector.txt
+   63  ls
+   64  pwd
+   65  cd home
+   66  head -n 1260 system_raw.txt | tail -n 11 > recovered_sector.txt
+   67  cd recovery_ops
+   68  cd ~/recovery_ops
+   69  code .
+   70  cd ~
+   71  ls
+   72  mv ~/recovered_sector.txt ~/recovery_ops/
+   73  ls
+   74  cd ../
+   75  cd recovery_ops
+   76  cd ~/recovery_ops
+   77  ls
+   78  code .
+   79  history | tail -n 30 > history_audit.txt
